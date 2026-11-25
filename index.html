@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Mwangi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Alex Mwangi</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section id="home" class="home">
+        <h2>Hello, I'm Alex Mwangi</h2>
+        <h3>Computer Science Student</h3>
+
+        <p>Welcome to my personal portfolio Website.</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <p>My Name is Alex Mwangi. I am a dedicated computer science student with a passion for software development and
+            problem-solving.</p>
+        <br>
+        <p>I enjoy working on challenging projects and continuously learning new technologies.</p>
+        <br>
+        <p>My goal is to contribute to innovative solutions and make a positive impact in the tech industry.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+
+        <p>Here are some of the skills I have acquired:</p>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>Database Management</li>
+
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Category</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Programming</td>
+                    <td>Intermediate</td>
+                </tr>
+
+                <tr>
+                    <td>Java</td>
+                    <td>Programming</td>
+                    <td>Intermediate</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Programming</td>
+                    <td>Beginner</td>
+                </tr>
+
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>Web Development</td>
+                    <td>Intermediate</td>
+                </tr>
+
+                <tr>
+                    <td>Database Management</td>
+                    <td>Data Management</td>
+                    <td>Beginner</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+
+
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Student Learning Hub</h3>
+                <p> A web-based platform designed to organize learning resources and make educational materials easier
+                    to access.</p>
+
+                <p><strong>Technologies:</strong>HTML, CSS</p>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Student Management System</h3>
+                <p>A web application that allows educational institutions to manage student information, track academic
+                    progress, and facilitate communication between students, teachers, and administrators.</p>
+
+                <p><strong>Technologies:</strong>JAVA, SQL</p>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Tic-Tac-Toe Game</h3>
+                <p>A simple implementation of the classic Tic-Tac-Toe game using HTML, CSS, and JavaScript.</p>
+
+                <p><strong>Technologies:</strong> C Programming</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education Background</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Institution</th>
+                    <th>Qualification</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Dedan Kimathi University of Technology</td>
+                    <td>Bachelor of Science in Computer Science</td>
+                    <td>2025 - date</td>
+                </tr>
+
+                <tr>
+                    <td>The Kagumo School</td>
+                    <td>Kenya Certificate of Secondary Education (KCSE)</td>
+                    <td>2021 - 2024</td>
+                </tr>
+
+                <tr>
+                    <td>St. Joseph's Primary School</td>
+                    <td>Kenya Certificate of Primary Education (KCPE)</td>
+                    <td>2013 - 2020</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <p>Have any questions or would you like to get in touch? Send me a message!</p>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter the subject of your message" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+
+        <h2>Portfolio Feedback</h2>
+
+        <form action="#" method="post">
+
+            <label for="visitor-name">
+                Your Name:
+            </label>
+
+            <input type="text" id="visitor-name" name="visitor-name" required>
+
+
+            <label for="rating">
+                How would you rate my portfolio?
+            </label>
+
+            <select id="rating" name="rating" required>
+
+                <option value="">Select a rating</option>
+
+                <option value="excellent">Excellent</option>
+
+                <option value="good">Good</option>
+
+                <option value="average">Average</option>
+
+                <option value="poor">Poor</option>
+
+            </select>
+
+
+            <label for="feedback">
+                Your Feedback:
+            </label>
+
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here">
+    </textarea>
+
+
+            <button type="submit">
+                Submit Feedback
+            </button>
+
+        </form>
+
+
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:kiharaalex15938@gmail.com">kiharaalex15938@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254116165566">+254116165566</a></p>
+
+    </section>
+
+</body>
+
+<footer>
+    <p>&copy; 2024 Alex Mwangi. All rights reserved.</p>
+
+    <p>Designed and Developed by Alex Mwangi using HTML and CSS.</p>
+</footer>
+
+</html>
